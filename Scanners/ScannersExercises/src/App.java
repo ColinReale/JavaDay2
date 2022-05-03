@@ -6,16 +6,9 @@ public class App {
         // Create the Scanner for reading user input
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Provide first string of text:");
+        System.out.println("What's your name?");
         String one = scanner.nextLine();
-        System.out.println("Provide second string of text:");
-        String two = scanner.nextLine();
-        System.out.println("Provide third string of text:");
-        String three = scanner.nextLine();
 
-        System.out.println("You wrote:");
-        System.out.println(one);
-        System.out.println(two);
-        System.out.println(three);
+        System.out.println("Hi " + one);
     }
 }
